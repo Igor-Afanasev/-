@@ -9,19 +9,19 @@ Attribute VB_Customizable = True
 Option Explicit
 
 Private Sub Workbook_Open()
-    UpdateParameterImages
+    RefreshParameterImages
 End Sub
 
 Private Sub Workbook_SheetChange(ByVal Sh As Object, ByVal Target As Range)
-    If Sh.CodeName <> "Sheet1" Then Exit Sub
+    If Not IsParameterSearchSheet(Sh) Then Exit Sub
     If Application.Intersect(Target, Sh.Range("D4:D6")) Is Nothing Then Exit Sub
-    UpdateParameterImages
+    RefreshParameterImages
 End Sub
 
 Private Sub Workbook_SheetCalculate(ByVal Sh As Object)
-    If Sh.CodeName = "Sheet1" Then EnsureParameterImages
+    If IsParameterSearchSheet(Sh) Then EnsureParameterImages
 End Sub
 
 Private Sub Workbook_SheetActivate(ByVal Sh As Object)
-    If Sh.CodeName = "Sheet1" Then EnsureParameterImages
+    If IsParameterSearchSheet(Sh) Then EnsureParameterImages
 End Sub
