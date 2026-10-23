@@ -17,3 +17,11 @@ Private Sub Workbook_SheetChange(ByVal Sh As Object, ByVal Target As Range)
     If Application.Intersect(Target, Sh.Range("D4:D6")) Is Nothing Then Exit Sub
     UpdateParameterImages
 End Sub
+
+Private Sub Workbook_SheetCalculate(ByVal Sh As Object)
+    If Sh.CodeName = "Sheet1" Then EnsureParameterImages
+End Sub
+
+Private Sub Workbook_SheetActivate(ByVal Sh As Object)
+    If Sh.CodeName = "Sheet1" Then EnsureParameterImages
+End Sub
