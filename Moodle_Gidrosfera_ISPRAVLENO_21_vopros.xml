@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>01 · Один ответ · Состав гидросферы</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Какая совокупность объектов относится к гидросфере?&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Гидросфера объединяет природные воды Земли.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100.0" format="moodle_auto_format">
+      <text>Океаны, ледники, подземные воды и водяной пар</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;В гидросферу входят воды Земли во всех агрегатных состояниях.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Горные породы, почва, магма и песок</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Это преимущественно компоненты литосферы.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Воздух, озон, азот и кислород</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Это компоненты атмосферы.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Материки, почвы, растения и животные</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Это сочетание компонентов нескольких оболочек Земли.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>02 · Один ответ · Солёная вода</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Где находится основная часть воды на Земле?&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Большая часть воды солёная и сосредоточена в океане.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100.0" format="moodle_auto_format">
+      <text>В Мировом океане</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Моря и океаны содержат подавляющее большинство земной воды.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>В пресноводных реках</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Доля речной воды очень мала.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>В атмосфере</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Запас атмосферной влаги сравнительно невелик.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>В пресных озёрах</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Озёра содержат небольшую часть всех запасов воды.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>03 · Один ответ · Круговорот</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Как называется превращение водяного пара в жидкие капли?&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;При конденсации формируются капли облаков и тумана.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100.0" format="moodle_auto_format">
+      <text>Конденсация</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Это переход из газообразного в жидкое состояние.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Испарение</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Испарение — превращение жидкости в газ.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Таяние</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Таяние — переход льда в воду.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Замерзание</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;При замерзании вода превращается в лёд.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>04 · Несколько ответов · Пресная вода</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Выберите ВСЕ объекты, которые обычно содержат пресную воду.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;К пресным водам относят ледники, реки и пресноводные озёра.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Ледники</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Лёд ледников состоит преимущественно из пресной воды.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Большинство рек</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Речные воды, как правило, пресные.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>Открытый океан</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Вода открытого океана солёная.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Пресноводные озёра</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Пресноводные озёра относятся к водам суши.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>05 · Несколько ответов · Загрязнение</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Выберите ВСЕ действия, которые помогают охранять водные ресурсы.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Важны очистка, предотвращение загрязнения и экономия воды.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Очистка сточных вод</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Снижает поступление загрязняющих веществ.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Экономное потребление питьевой воды</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Помогает сокращать потери ресурсов.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>Слив отходов в реки</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Загрязняет водные объекты.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="33.333333333333336" format="moodle_auto_format">
+      <text>Сокращение попадания пластика в водоёмы</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Уменьшает загрязнение водоёмов.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name>
+      <text>06 · Верно/неверно · Вода и лёд</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Ледники являются частью гидросферы.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Гидросфера включает воду в жидком, твёрдом и газообразном состояниях.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name>
+      <text>07 · Верно/неверно · Вода океана</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Большая часть воды Мирового океана является пресной.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Мировой океан содержит солёную воду.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name>
+      <text>08 · Верно/неверно · Круговорот</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Испарение и выпадение осадков являются этапами круговорота воды.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Вода испаряется, переносится в атмосфере и возвращается с осадками.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name>
+      <text>09 · Верно/неверно · Подземные воды</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Подземные воды находятся исключительно на поверхности суши.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Подземные воды заполняют поры, трещины и пустоты горных пород.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="shortanswer">
+    <name>
+      <text>10 · Короткий ответ · Оболочка Земли</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Как называется водная оболочка Земли? Введите одно слово.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Правильный термин: гидросфера.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>гидросфера</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Вспомните основные термины по теме.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="shortanswer">
+    <name>
+      <text>11 · Короткий ответ · Океан</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Как называется крупнейший океан Земли? Введите его название одним словом, без слова «океан».&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Крупнейший океан — Тихий.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Тихий</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Вспомните основные термины по теме.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="shortanswer">
+    <name>
+      <text>12 · Короткий ответ · Процесс</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Как называется процесс перехода воды из жидкого состояния в газообразное?&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;При испарении образуется водяной пар.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>испарение</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text>
+          <text>&lt;p&gt;Вспомните основные термины по теме.&lt;/p&gt;</text>
+        </text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="numerical">
+    <name>
+      <text>13 · Числовой ответ · Океаны</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Примерно какой процент поверхности Земли покрыт океанами и морями? Введите число без знака %. Допускается погрешность ±1.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Воды Мирового океана покрывают около 71% поверхности Земли.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>71</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+      <tolerance>1</tolerance>
+    </answer>
+  </question>
+  <question type="numerical">
+    <name>
+      <text>14 · Числовой ответ · Солёные воды</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Около скольких процентов всей воды Земли составляет солёная вода? Введите число без знака %. Допускается погрешность ±0,5.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Оценочно 97,5% водных запасов солёные.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>97.5</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+      <tolerance>0.5</tolerance>
+    </answer>
+  </question>
+  <question type="numerical">
+    <name>
+      <text>15 · Числовой ответ · Пресная вода</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Если из 1000 литров условных запасов воды Земли около 2,5% составляют пресные воды, сколько это литров? Введите число.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;1000 × 0,025 = 25 литров.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>25</text>
+      <feedback format="html">
+        <text>
+          <text />
+        </text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+  </question>
+  <question type="matching">
+    <name>
+      <text>16 · Соответствие · Агрегатные состояния</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Соотнесите объект гидросферы с состоянием воды.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Вода присутствует во всех трёх агрегатных состояниях.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion format="html">
+      <text>&lt;p&gt;Ледник&lt;/p&gt;</text>
+      <answer>
+        <text>Твёрдое</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Река&lt;/p&gt;</text>
+      <answer>
+        <text>Жидкое</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Водяной пар&lt;/p&gt;</text>
+      <answer>
+        <text>Газообразное</text>
+      </answer>
+    </subquestion>
+  </question>
+  <question type="matching">
+    <name>
+      <text>17 · Соответствие · Этапы круговорота</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Соотнесите процесс и его описание.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Все перечисленные процессы связаны с изменениями состояния воды.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion format="html">
+      <text>&lt;p&gt;Испарение&lt;/p&gt;</text>
+      <answer>
+        <text>Жидкая вода переходит в пар</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Конденсация&lt;/p&gt;</text>
+      <answer>
+        <text>Пар превращается в капли</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Замерзание&lt;/p&gt;</text>
+      <answer>
+        <text>Жидкая вода превращается в лёд</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Таяние&lt;/p&gt;</text>
+      <answer>
+        <text>Лёд превращается в жидкую воду</text>
+      </answer>
+    </subquestion>
+  </question>
+  <question type="matching">
+    <name>
+      <text>18 · Соответствие · Типы водоёмов</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Соотнесите термин и определение.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Река, озеро и океан различаются по происхождению и характеристикам.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion format="html">
+      <text>&lt;p&gt;Река&lt;/p&gt;</text>
+      <answer>
+        <text>Естественный водоток с течением</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Озеро&lt;/p&gt;</text>
+      <answer>
+        <text>Водоём в углублении суши</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Океан&lt;/p&gt;</text>
+      <answer>
+        <text>Крупнейшая часть Мирового океана, разделяемая материками</text>
+      </answer>
+    </subquestion>
+  </question>
+  <question type="essay">
+    <name>
+      <text>25 · Эссе · Значение круговорота</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Объясните роль круговорота воды в природе. Опишите минимум три процесса и приведите два примера его значения для живых организмов.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Оценивать по полноте, научной точности, наличию примеров. Проверка преподавателем.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <answer fraction="0" format="moodle_auto_format">
+      <text />
+    </answer>
+  </question>
+  <question type="essay">
+    <name>
+      <text>26 · Эссе · Охрана вод</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Предложите три меры охраны пресных вод в вашем населённом пункте и объясните, как каждая мера уменьшает загрязнение или расход воды.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Оценивать конкретность мер и связь с охраной вод. Проверка преподавателем.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <answer fraction="0" format="moodle_auto_format">
+      <text />
+    </answer>
+  </question>
+  <question type="description">
+    <name>
+      <text>27 · Информационный блок · Термины</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;&lt;b&gt;Памятка.&lt;/b&gt; Гидросфера включает воды Мирового океана, воды суши, подземные воды, лёд и атмосферную влагу. Это информационный элемент, он не оценивается.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+  </question>
+</quiz>

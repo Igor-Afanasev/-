@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="cloze">
+    <name>
+      <text>19 · Пропуски Cloze · Круговорот</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Вода с поверхности океана переходит в пар — это {1:SHORTANSWER:=испарение}. Из водяного пара образуются облачные капли — это {1:SHORTANSWER:=конденсация}. Дожди и снег называются {1:SHORTANSWER:=осадки}.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Круговорот включает испарение, конденсацию и выпадение осадков.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+  </question>
+  <question type="cloze">
+    <name>
+      <text>20 · Комбинированный Cloze · Гидросфера</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Гидросфера — это {1:MULTICHOICE:=водная~воздушная~твёрдая} оболочка Земли. Наибольший объём воды находится в {1:MULTICHOICE:=океанах~реках~озёрах}. Около {1:NUMERICAL:=71:1}% поверхности Земли покрыто океанами и морями.&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Вопрос сочетает выбор вариантов и числовой ответ.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+  </question>
+  <question type="ddwtos">
+    <name>
+      <text>21 · Перетаскивание в текст · Круговорот</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Вода превращается в пар при [[1]], а водяной пар образует капли при [[2]].&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Нужно перетащить слова в две области пропусков.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>1</shuffleanswers>
+    <dragbox>
+      <text>испарении</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>конденсации</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>замерзании</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+  <question type="ddwtos">
+    <name>
+      <text>22 · Перетаскивание в текст · Воды суши</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Естественный текущий водоток — это [[1]], а природный водоём в углублении суши — это [[2]].&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Правильная последовательность: река, озеро.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>1</shuffleanswers>
+    <dragbox>
+      <text>река</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>озеро</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>ледник</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+  <question type="gapselect">
+    <name>
+      <text>23 · Выбор пропущенных слов · Состав воды</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Самая большая часть гидросферы находится в [[1]], а большая часть пресной воды — в [[2]].&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Мировой океан содержит основную массу воды, ледники — значительную часть пресной.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>1</shuffleanswers>
+    <selectoption>
+      <text>Мировом океане</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>ледниках</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>атмосфере</text>
+      <group>1</group>
+    </selectoption>
+  </question>
+  <question type="gapselect">
+    <name>
+      <text>24 · Выбор пропущенных слов · Виды вод</text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <text>&lt;p&gt;Вода Мирового океана в основном [[1]], а вода большинства рек — [[2]].&lt;/p&gt;</text>
+      </text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <generalfeedback format="html">
+      <text>
+        <text>&lt;p&gt;Океаническая вода солёная, большинство рек пресные.&lt;/p&gt;</text>
+      </text>
+    </generalfeedback>
+    <shuffleanswers>1</shuffleanswers>
+    <selectoption>
+      <text>солёная</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>пресная</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>газообразная</text>
+      <group>1</group>
+    </selectoption>
+  </question>
+</quiz>
