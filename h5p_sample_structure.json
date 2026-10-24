@@ -1,0 +1,389 @@
+{
+  "manifest": {
+    "title": "Course Presentation",
+    "language": "und",
+    "mainLibrary": "H5P.CoursePresentation",
+    "embedTypes": [
+      "div"
+    ],
+    "preloadedDependencies": [
+      {
+        "machineName": "H5P.AdvancedText",
+        "majorVersion": "1",
+        "minorVersion": "1"
+      },
+      {
+        "machineName": "H5P.Image",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "H5P.SingleChoiceSet",
+        "majorVersion": "1",
+        "minorVersion": "8"
+      },
+      {
+        "machineName": "H5P.SoundJS",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "H5P.Transition",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "H5P.JoubelUI",
+        "majorVersion": "1",
+        "minorVersion": "2"
+      },
+      {
+        "machineName": "Drop",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "Tether",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "FontAwesome",
+        "majorVersion": "4",
+        "minorVersion": "5"
+      },
+      {
+        "machineName": "H5P.Question",
+        "majorVersion": "1",
+        "minorVersion": "2"
+      },
+      {
+        "machineName": "H5P.Blanks",
+        "majorVersion": "1",
+        "minorVersion": "7"
+      },
+      {
+        "machineName": "H5P.Video",
+        "majorVersion": "1",
+        "minorVersion": "3"
+      },
+      {
+        "machineName": "flowplayer",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "H5P.Summary",
+        "majorVersion": "1",
+        "minorVersion": "7"
+      },
+      {
+        "machineName": "H5P.DragText",
+        "majorVersion": "1",
+        "minorVersion": "5"
+      },
+      {
+        "machineName": "jQuery.ui",
+        "majorVersion": "1",
+        "minorVersion": "10"
+      },
+      {
+        "machineName": "H5P.MultiChoice",
+        "majorVersion": "1",
+        "minorVersion": "9"
+      },
+      {
+        "machineName": "EmbeddedJS",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      },
+      {
+        "machineName": "H5P.CoursePresentation",
+        "majorVersion": "1",
+        "minorVersion": "16"
+      },
+      {
+        "machineName": "H5P.FontIcons",
+        "majorVersion": "1",
+        "minorVersion": "0"
+      }
+    ]
+  },
+  "root_keys": [
+    "l10n",
+    "override",
+    "presentation"
+  ],
+  "presentation_keys": [
+    "slides",
+    "keywordListEnabled",
+    "keywordListAlwaysShow",
+    "keywordListAutoHide",
+    "keywordListOpacity",
+    "globalBackgroundSelector"
+  ],
+  "slide_count": 9,
+  "slides": [
+    {
+      "elements": [
+        {
+          "x": 79.617834394904,
+          "y": 88.050314465409,
+          "width": 18.66557954412,
+          "height": 7.2779305945902,
+          "action": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>&nbsp;Jump to redcurrant</p>\n"
+            },
+            "subContentId": "56389ab2-a70f-4265-9099-d28023126dd8"
+          },
+          "alwaysDisplayComments": false,
+          "backgroundOpacity": 50,
+          "displayAsButton": false,
+          "invisible": false,
+          "solution": ""
+        },
+        {
+          "x": 79.617834394904,
+          "y": 69.182389937107,
+          "width": 18.683651804671,
+          "height": 19.077568134172,
+          "action": {
+            "library": "H5P.Image 1.0",
+            "params": {
+              "contentName": "Image",
+              "file": {
+                "path": "images/file-550ff73380390.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                },
+                "width": 1600,
+                "height": 800
+              },
+              "alt": "Photo of red currants",
+              "title": "Red currants"
+            },
+            "subContentId": "266a00e6-a02d-4ac1-920a-d1acf2e4a423"
+          },
+          "alwaysDisplayComments": false,
+          "backgroundOpacity": 0,
+          "displayAsButton": false,
+          "invisible": false,
+          "solution": ""
+        },
+        {
+          "x": 79.617834394904,
+          "y": 69.182389937107,
+          "width": 18.683651804671,
+          "height": 26.205450733753,
+          "goToSlide": 4,
+          "backgroundOpacity": 0,
+          "displayAsButton": false,
+          "invisible": false,
+          "title": "Skip to redcurrant"
+        },
+        {
+          "action": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<h2><strong>Cloudberries</strong></h2>\n\n<ul>\n\t<li>\n\t<p>Cloudberries grow in alpine and arctic tundra.</p>\n\t</li>\n\t<li>\n\t<p>The cloudberry is also known as bakeapple, knotberry and averin, and is part of the Rose family.&nbsp;</p>\n\t</li>\n\t<li>\n\t<p>Each fruit is initially pale red, ripening into an amber color in early autumn.</p>\n\t</li>\n\t<li>\n\t<p>Scandinavia has strict rules for harvesting cloudberries. Sweden even has a section for regulating this in their Ministry of Foreign Affairs.</p>\n\t</li>\n</ul>\n"
+            },
+            "subContentId": "6f74f0ba-d061-4530-a01c-13f381b79817"
+          },
+          "x": 2.1231422505308,
+          "y": 4.1928721174004,
+          "width": 46.92144373673,
+          "height": 92.662473794549,
+          "alwaysDisplayComments": false,
+          "backgroundOpacity": 60,
+          "displayAsButton": false,
+          "solution": "",
+          "invisible": false
+        }
+      ],
+      "slideBackgroundSelector": {},
+      "keywords": []
+    },
+    {
+      "elements": [
+        {
+          "x": 2.1231422505308,
+          "y": 4.1928721174004,
+          "width": 64.968152866242,
+          "height": 59.119496855346,
+          "action": {
+            "library": "H5P.SingleChoiceSet 1.8",
+            "params": {
+              "choices": [
+                {
+                  "answers": [
+                    "amber",
+                    "pale red",
+                    "black",
+                    "brown"
+                  ],
+                  "question": "<p>What color do ripe cloudberries have?</p>\n",
+                  "subContentId": "0a5f12b1-c025-4a19-9771-d31d58511438"
+                },
+                {
+                  "answers": [
+                    "Sweden",
+                    "France",
+                    "Germany",
+                    "India"
+                  ],
+                  "question": "What country has a special section of cloudberry diplomacy in their Ministry of Foreign Affairs",
+                  "subContentId": "bb04138f-ecf9-45ea-a2ac-735f8797e7a9"
+                },
+                {
+                  "answers": [
+                    "Rose family",
+                    "Magnolia family",
+                    "Oak and beech family",
+                    "Grass family"
+                  ],
+                  "question": "What family of plants does cloudberry belong to ?",
+                  "subContentId": "5bbb8c42-699a-4d4d-aa4e-5dd8f876bf4a"
+                }
+              ],
+              "behaviour": {
+                "timeoutCorrect": 0,
+                "timeoutWrong": 0,
+                "soundEffectsEnabled": true,
+                "enableRetry": true,
+                "enableSolutionsButton": true,
+                "passPercentage": 100
+              },
+              "l10n": {
+                "resultSlideTitle": "You got :numcorrect of :maxscore correct",
+                "showSolutionButtonLabel": "Show solution",
+                "retryButtonLabel": "Retry",
+                "solutionViewTitle": "Solution",
+                "correctText": "Correct!",
+                "incorrectText": "Incorrect!",
+                "muteButtonLabel": "Mute feedback sound",
+                "closeButtonLabel": "Close",
+                "slideOfTotal": "Slide :num of :total"
+              }
+            },
+            "subContentId": "8bbee627-3f98-437b-9e8d-faad2a15a378"
+          },
+          "alwaysDisplayComments": false,
+          "backgroundOpacity": 60,
+          "displayAsButton": false,
+          "invisible": false,
+          "solution": ""
+        }
+      ],
+      "slideBackgroundSelector": {},
+      "keywords": []
+    },
+    {
+      "elements": [
+        {
+          "action": {
+            "library": "H5P.Blanks 1.7",
+            "params": {
+              "questions": [
+                "<p>The cloudberry is also known as knotberry, bakeapple or *averin*.</p>\n",
+                "<p>Cloudberries can be found in alpine and *arctic* tundra.</p>\n"
+              ],
+              "score": "You got @score of @total blanks correct.",
+              "showSolutions": "Show solutions",
+              "tryAgain": "Retry",
+              "checkAnswer": "Check",
+              "notFilledOut": "Please fill in all blanks",
+              "text": "<p>Fill in the blanks</p>\n",
+              "behaviour": {
+                "enableSolutionsButton": true,
+                "autoCheck": false,
+                "caseSensitive": true,
+                "showSolutionsRequiresInput": true,
+                "separateLines": false,
+                "enableRetry": true,
+                "disableImageZooming": false,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false
+              },
+              "answerIsCorrect": "&#039;:ans&#039; is correct",
+              "answerIsWrong": "&#039;:ans&#039; is wrong",
+              "answeredCorrectly": "Answered correctly",
+              "answeredIncorrectly": "Answered incorrectly",
+              "solutionLabel": "Correct answer:",
+              "inputLabel": "Blank input @num of @total",
+              "inputHasTipLabel": "Tip available",
+              "tipLabel": "Tip",
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "media": {
+                "params": {}
+              }
+            },
+            "subContentId": "46f15435-e9e6-47ae-9012-4e3ebc8918ac"
+          },
+          "x": 3.125,
+          "y": 6.1728395061728,
+          "width": 39.375,
+          "height": 88.065843621399,
+          "alwaysDisplayComments": false,
+          "backgroundOpacity": 60,
+          "displayAsButton": false,
+          "solution": "",
+          "invisible": false
+        }
+      ],
+      "slideBackgroundSelector": {},
+      "keywords": []
+    }
+  ],
+  "file_count": 541,
+  "libs": [
+    "Drop-1.0/README.md",
+    "Drop-1.0/css/drop-theme-arrows-bounce.min.css",
+    "Drop-1.0/js/drop.min.js",
+    "Drop-1.0/library.json",
+    "EmbeddedJS-1.0/js/ejs.js",
+    "EmbeddedJS-1.0/js/ejs_production.js",
+    "EmbeddedJS-1.0/js/ejs_viewhelpers.js",
+    "EmbeddedJS-1.0/library.json",
+    "FontAwesome-4.5/FontAwesome.otf",
+    "FontAwesome-4.5/README.md",
+    "FontAwesome-4.5/fontawesome-webfont.eot",
+    "FontAwesome-4.5/fontawesome-webfont.svg",
+    "FontAwesome-4.5/fontawesome-webfont.ttf",
+    "FontAwesome-4.5/fontawesome-webfont.woff",
+    "FontAwesome-4.5/fontawesome-webfont.woff2",
+    "FontAwesome-4.5/h5p-font-awesome.min.css",
+    "FontAwesome-4.5/library.json",
+    "H5P.AdvancedText-1.1/language/ar.json",
+    "H5P.AdvancedText-1.1/language/de.json",
+    "H5P.AdvancedText-1.1/language/fr.json",
+    "H5P.AdvancedText-1.1/language/it.json",
+    "H5P.AdvancedText-1.1/language/nb.json",
+    "H5P.AdvancedText-1.1/language/nn.json",
+    "H5P.AdvancedText-1.1/library.json",
+    "H5P.AdvancedText-1.1/semantics.json",
+    "H5P.AdvancedText-1.1/text.css",
+    "H5P.AdvancedText-1.1/text.js",
+    "H5P.AppearIn-1.0/h5p-appear-in.js",
+    "H5P.AppearIn-1.0/language/ar.json",
+    "H5P.AppearIn-1.0/language/de.json",
+    "H5P.AppearIn-1.0/language/fr.json",
+    "H5P.AppearIn-1.0/language/it.json",
+    "H5P.AppearIn-1.0/language/nb.json",
+    "H5P.AppearIn-1.0/library.json",
+    "H5P.AppearIn-1.0/semantics.json"
+  ]
+}
