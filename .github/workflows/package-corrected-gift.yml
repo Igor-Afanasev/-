@@ -1,0 +1,38 @@
+name: Package corrected GIFT question bank
+on:
+  push:
+    paths:
+      - '.github/workflows/package-corrected-gift.yml'
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and package GIFT
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile,ZIP_DEFLATED
+          import re
+          f=Path('Moodle_Gidrosfera_GIFT_ISPRAVLENO_30.txt')
+          data=f.read_text(encoding='utf-8')
+          parts=re.findall(r'^::([^\n:]+)::([^\n]+) \{\n([\s\S]*?)\n\}',data,re.M)
+          assert len(parts)==30, len(parts)
+          for title,stem,body in parts:
+              assert len(stem.strip())>=25,(title,stem)
+              assert not re.search(r'^=\s*->',body,re.M),title
+              if 'Соответствие' in title: assert all(' -> ' in x for x in body.splitlines() if x.startswith('=')),title
+          with ZipFile('Moodle_Gidrosfera_GIFT_ISPRAVLENO_30.zip','w',ZIP_DEFLATED) as z:
+              z.write(f,arcname=f.name)
+          with ZipFile('Moodle_Gidrosfera_GIFT_ISPRAVLENO_30.zip') as z:
+              assert z.read(f.name)==f.read_bytes()
+          print('Validated 30 question blocks')
+          PY
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Moodle_Gidrosfera_GIFT_ISPRAVLENO_30.zip
+          git diff --cached --quiet || (git commit -m "Add corrected GIFT ZIP" && git push)
