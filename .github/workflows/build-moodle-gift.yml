@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/build-moodle-gift.yml'
+      - 'convert_gidrosfera_to_gift.py'
 permissions:
   contents: write
 jobs:
