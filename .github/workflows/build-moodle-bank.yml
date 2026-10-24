@@ -1,0 +1,18 @@
+name: Build Moodle Hydrosphere Question Bank
+on:
+  push:
+    paths: ['.github/workflows/build-moodle-bank.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python build_moodle_gidrosfera_bank.py
+      - name: Commit XML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Moodle_Gidrosfera_bank_27_questions.xml
+          git diff --cached --quiet || (git commit -m "Add Moodle XML hydrosphere bank with varied question types" && git push)
