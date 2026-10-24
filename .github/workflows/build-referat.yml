@@ -1,0 +1,87 @@
+name: Build Word report
+on:
+  push:
+    paths:
+      - '.github/workflows/build-referat.yml'
+      - 'referat_supercomputer_history_word.html'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install document packages
+        run: python -m pip install python-docx beautifulsoup4
+      - name: Build DOCX
+        shell: bash
+        run: |
+          python - <<'PY'
+          from bs4 import BeautifulSoup
+          from docx import Document
+          from docx.shared import Pt,Cm
+          from docx.enum.text import WD_ALIGN_PARAGRAPH
+          from docx.enum.style import WD_STYLE_TYPE
+          from docx.oxml import OxmlElement
+          from docx.oxml.ns import qn
+          from docx.enum.text import WD_BREAK
+          with open('referat_supercomputer_history_word.html',encoding='utf-8') as f:
+              soup=BeautifulSoup(f.read(),'html.parser')
+          doc=Document()
+          sec=doc.sections[0]; sec.page_height=Cm(29.7);sec.page_width=Cm(21)
+          sec.top_margin=Cm(2);sec.bottom_margin=Cm(2);sec.left_margin=Cm(3);sec.right_margin=Cm(1.5)
+          normal=doc.styles['Normal'];normal.font.name='Times New Roman';normal.font.size=Pt(12)
+          normal._element.rPr.rFonts.set(qn('w:eastAsia'),'Times New Roman')
+          pf=normal.paragraph_format; pf.line_spacing=1.5;pf.first_line_indent=Cm(1.25);pf.space_after=Pt(7)
+          for name in ['Title','Heading 1','Heading 2']:
+              st=doc.styles[name];st.font.name='Times New Roman';st.font.size=Pt(14);st.font.bold=True
+          for node in soup.body.descendants:
+              if not getattr(node,'name',None) or node.name not in ['p','h1','h2']:continue
+              if node.find_parent(['p','h1','h2']): continue
+              classes=[]
+              parent=node.parent
+              while parent and parent.name!='body':
+                  classes+=parent.get('class',[])
+                  parent=parent.parent
+              if node.name in ('h1','h2'):
+                  p=doc.add_paragraph(style='Heading 1')
+                  p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+                  p.paragraph_format.first_line_indent=Cm(0)
+                  p.paragraph_format.space_before=Pt(16)
+                  p.paragraph_format.space_after=Pt(10)
+              else:
+                  p=doc.add_paragraph()
+              if 'titlepage' in classes:
+                  p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+                  p.paragraph_format.first_line_indent=Cm(0)
+              elif 'toc' in classes:
+                  p.alignment=WD_ALIGN_PARAGRAPH.LEFT
+                  p.paragraph_format.first_line_indent=Cm(0)
+              elif node.name=='p':
+                  p.alignment=WD_ALIGN_PARAGRAPH.JUSTIFY
+              if 'ref' in node.get('class',[]):
+                  p.paragraph_format.first_line_indent=Cm(-0.65)
+                  p.paragraph_format.left_indent=Cm(0.65)
+              if node.get('class') and 'pagebreak' in node['class']:
+                  p.paragraph_format.page_break_before=True
+              for child in node.children:
+                  if getattr(child,'name',None)=='b':
+                      run=p.add_run(child.get_text());run.bold=True
+                  elif getattr(child,'name',None)=='a':
+                      run=p.add_run(child.get_text());run.underline=True
+                  else:
+                      p.add_run(str(child) if isinstance(child,str) else child.get_text())
+              if 'titlepage' in classes and 'Ульяновск, 2026' in p.text:
+                  p.add_run().add_break(WD_BREAK.PAGE)
+              if 'toc' in classes and 'Номера страниц' in p.text:
+                  p.add_run().add_break(WD_BREAK.PAGE)
+          f='Referat_Istoriya_razvitiya_superkompyuternyh_tehnologiy.docx'
+          doc.save(f)
+          print('Saved',f)
+          PY
+      - name: Commit Word file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Referat_Istoriya_razvitiya_superkompyuternyh_tehnologiy.docx
+          git diff --cached --quiet || (git commit -m "Build formatted DOCX referat" && git push)
