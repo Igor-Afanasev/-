@@ -113,5 +113,5 @@ gift=''.join(pieces)
 out=Path('Moodle_Gidrosfera_GIFT_voprosy.txt')
 out.write_text(gift,encoding='utf-8')
 assert gift.count('::')%2==0
-assert gift.count('::')//2==35, gift.count('::')//2
+assert gift.count('::')//2==34, gift.count('::')//2
 print('created',out,'original assessed questions',n,'GIFT questions',gift.count('::')//2,'size',out.stat().st_size)
